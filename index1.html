@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Site1</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="shortcut icon" href="icon paw.png" type="image/png">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+<link rel="stylesheet" type="text/css" href="main.css">
+<link href="animate.css" rel="stylesheet">
+<style>
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+</style>
+ <script src="wow.min.js"></script>
+ <script>
+ 	new WOW().init();
+ </script>
+</head>
+<body>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+		<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<div class="container-fluid">
+			<a href="#" class="navbar-brad"><img src="icon paw.png"></a>
+			<a href="index.html" class="navbar-br" style="color:#222;">Укр</a>
+			<a href="indexeng.html" class="navbar-br" style="color:#222;">Eng</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a href="index.html#1" class="nav-link">Головна</a>
+					</li>
+					<li class="nav-item">
+						<a href="index.html#2" class="nav-link">Про нас</a>
+					</li>
+					<li class="nav-item">
+						<a href="index.html#3" class="nav-link">Кімнати</a>
+					</li>
+					<li class="nav-item">
+						<a href="#4" class="nav-link">Додаткові послуги</a>
+					</li>
+					<li class="nav-item">
+						<a href="index.html#5" class="nav-link">Контакти</a>
+					</li>
+					<li class="nav-item">
+						<a href="index2.html" class="nav-link"><button type="button" class="btn btn-outline-warning">Забронювати</button></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container-fluid">
+		<div class="row text-center alert">
+			<div class="col-12">
+				<div class="wow fadeInDownBig"><h1 class="display-4" id='6'> Наші кімнати для домашніх тварин</h1></div>
+				<div class="wow fadeInDownBig" data-wow-delay="0.5s"><h5>У нас різні варіанти, від стандартних до представницьких номерів:</h5></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-3 col-sm-12 col-md-2"></div>
+			<div class="col-lg-4 col-sm-12 col-md-6">
+				<div class="padding">
+					<div class="sidepan"><img src="dog2.jpg" alt="kick"></div>
+				</div>
+			</div>
+			<div class="col-lg-2 col-sm-12 col-md-2">
+				<div class="padding">
+				<p>Для: 1 Собаки</p>
+				<p>Розміри: 2x3 м</p>
+				<p>Ціна: $15/день</p>
+				<p>Тип: Стандарт</p></div>
+				<p>Комфортний і просторий номер, обладнаний усім необхідним для вашої собаки. Свіжа дистильована вода подається 5 разів на день, м'який лежак та смачні кістки!</p>
+			<button type="button" class="btn btn-warning"><a href="index2.html">Забронювати</a></button>
+			</div>
+			<div class="col-lg-3 col-sm-12 col-md-2"></div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-3 col-sm-12 col-md-2"></div>
+			<div class="col-lg-4 col-sm-12 col-md-6">
+				<div class="padding">
+					<div class="sidepan"><img src="cat1.jpg" alt="kick"></div>
+				</div>
+			</div>
+			<div class="col-lg-2 col-sm-12 col-md-2">
+				<div class="padding">
+				<p>Для: 1 Кота</p>
+				<p>Розміри: 1x2 м</p>
+				<p>Ціна: $12/день</p>
+				<p>Тип: Стандарт</p></div>
+				<p>Дослідіть комфорт та ігровий комплекс для своєї кішки. Кондиціонер та кігтеточка включені!</p>
+			<button type="button" class="btn btn-warning"><a href="index2.html">Забронювати</a></button>
+			</div>
+			<div class="col-lg-3 col-sm-12 col-md-2"></div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-3 col-sm-12 col-md-2"></div>
+			<div class="col-lg-4 col-sm-12 col-md-6">
+				<div class="padding">
+					<div class="sidepan"><img src="dog1.jpg" alt="kick"></div>
+				</div>
+			</div>
+			<div class="col-lg-2 col-sm-12 col-md-2">
+				<div class="padding">
+				<p>Для: 1 Собаки/ 1 Кота</p>
+				<p>Розміри: 3x4 м</p>
+				<p>Ціна: $20/день</p>
+				<p>Тип: Напівлюкс</p></div>
+				<p>Більш простора і світла кімната з усім, що може знадобитися вашому улюбленцю. Збільшена площа кімнати дозволяє вашому улюбленцю більше рухатися і вибирати найбільш зручне місце для відпочинку та сну.</p>
+			<button type="button" class="btn btn-warning"><a href="index2.html">Забронювати</a></button>
+			</div>
+			<div class="col-lg-3 col-sm-12 col-md-2"></div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-3 col-sm-12 col-md-2"></div>
+			<div class="col-lg-4 col-sm-12 col-md-6">
+				<div class="padding">
+					<div class="sidepan"><img src="cat2.jpg" alt="kick"></div>
+				</div>
+			</div>
+			<div class="col-lg-2 col-sm-12 col-md-2">
+				<div class="padding">
+				<p>Для: 2-4 Котів</p>
+				<p>Розміри: 5x7 м</p>
+				<p>Ціна: $35/день</p>
+				<p>Тип: Люкс</p></div>
+				<p>Розкішна кімната для сім’ї котів. Цей світлий і повітряний простір може вмістити до 4 тварин. Вода, молоко, їжа та кігеточки включені. У цьому приміщенні багато місця для ігор, сну та відпочинку.</p>
+			<button type="button" class="btn btn-warning"><a href="index2.html">Забронювати</a></button>
+			</div>
+			<div class="col-lg-3 col-sm-12 col-md-2"></div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-3 col-sm-12 col-md-2"></div>
+			<div class="col-lg-4 col-sm-12 col-md-6">
+				<div class="padding">
+					<div class="sidepan"><img src="dog.jpg" alt="kick"></div>
+				</div>
+			</div>
+			<div class="col-lg-2 col-sm-12 col-md-2">
+				<div class="padding">
+				<p>For: 2-4 Собак</p>
+				<p>Size: 5x7 м</p>
+				<p>Ціна: $35/день</p>
+				<p>Тип: Люкс</p></div>
+				<p>Прекрасний простір для гри та сну до 4-х собак будь-якого розміру та породи. Ми можемо наповнити цю кімнату улюбленими іграшками вашої собаки. Включаються кондиціонер, наповнений міні-бар та власна ванна кімната з найм'якшими рушниками.</p>
+			<button type="button" class="btn btn-warning"><a href="index2.html">Забронювати</a></button>
+			</div>
+			<div class="col-lg-3 col-sm-12 col-md-2"></div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row text-center alert">
+			<div class="col-12">
+				<div class="wow fadeInDownBig"><h1 class="display-4" id='4'>Додаткові послуги</h1></div>
+			</div>
+			<div class="col-lg-3 col-sm-12 col-md-3"></div>
+			<div class="col-lg-6 col-sm-12 col-md-6">
+				<table class="table">
+					<thead>
+						<tr class="wow fadeInDownBig">
+							<th>Назва</th>
+							<th>Кількість</th>
+      						<th>Ціна</th>
+      					</tr>
+      				</thead>
+      				<tbody>
+      					<tr class="wow fadeInLeft">
+      						<td>Розчісування</td>
+      						<td>Одна процедура</td>
+      						<td class="red">25 $</td>
+      					</tr>
+      					<tr class="wow fadeInLeft">
+      						<td>Стрижка</td>
+      						<td>Одна процедура</td>
+      						<td class="red">30 $</td>
+      					</tr>
+      					<tr class="wow fadeInLeft">
+      						<td>Промивання очей</td>
+      						<td>Одна процедура</td>
+      						<td class="red">35 $</td>
+    					</tr>
+    					<tr class="wow fadeInLeft">
+      						<td>Чистка вух</td>
+      						<td>Одна процедура</td>
+      						<td class="red">15 $</td>
+    					</tr>
+    					<tr class="wow fadeInLeft">
+      						<td>Фото та відеозвіт</td>
+      						<td>Одне відео та п'ять фото</td>
+      						<td class="red">40 $</td>
+    					</tr>
+    					<tr class="wow fadeInLeft">
+      						<td>Обрізання кігтів</td>
+      						<td>Одна процедура</td>
+      						<td class="red">10 $</td>
+    					</tr>
+    					<tr class="wow fadeInLeft">
+      						<td>Лікування від паразитів</td>
+      						<td>Одна процедура</td>
+      						<td class="red">50 $</td>
+    					</tr>
+    					<tr class="wow fadeInLeft">
+      						<td>Миття</td>
+      						<td>Одна процедура</td>
+      						<td class="red">25 $</td>
+    					</tr>
+    				</tbody>
+    			</table>
+    		</div>
+    		<div class="col-lg-3 col-sm-12 col-md-3"></div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12">
+				<h1 class="display-4" style="color: white">fdghfdhghdfohgod</h1>
+			</div>
+		</div>
+	</div>
+
+	<iframe name="myIFR" style="display: none;"></iframe>
+
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-6 col-sm-12 col-md-6" style="align-content: left;"><img src="dog3.jpg"> </div>
+			<div class="col-lg-1 col-sm-12 col-md-1"></div>
+			<div class="col-lg-4 clo-sm-12 col-md-4">
+				<div class="wow fadeInDownBig"><h1>Запитання?</h1></div>
+				<form action="send.php" method="get" id="mailForm" target="myIFR">
+					<div class="form-group">
+						<label for="name">Ім'я:</label>
+						<input type="name" id="name" name="name" class="form-control" id="name" placeholder="Name">
+					</div>
+					<div class="form-group">
+						<label for="email1">E-mail:</label>
+						<input type="email" id="email" name="email" class="form-control" placeholder="Email">
+					</div>
+					<div class="form-group">
+						<label for="message">Ваше повідомення:</label>
+						<textarea class="form-control" id="message" name="message" rows="3"></textarea>
+					</div>
+					<button type="submit" id="sendMail" class="btn btn-info ">Надіслати повідомлення</button>
+				</form>
+				<div id="errorMess"></div>
+			</div>
+			<div class="col-lg-1 col-sm-12 col-md-1"></div>
+			<script src="js/formMail.js"></script>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12">
+				<h1 class="display-4" style="color: white">fdghfdhghdfohgod</h1>
+			</div>
+		</div>
+	</div>
+	
+	<footer style="height: 330px">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 footer-about wow fadeInUp pt-5">
+					<h3>Про нас</h3>
+					<p>Ми молода компанія, яка завжди шукає нові та креативні ідеї.</p>
+					<p>&copy; Company Inc.</p>
+				</div>
+				<div class="col-md-4 offset-md-1 footer-contact wow fadeInDown pt-5">
+					<h3>Контакти</h3>
+					<p><i class="fas fa-map-marker-alt"></i> Вул. Шопена, 18, м.Луцьк, Волинська обл., Україна</p>
+					<p><i class="fas fa-phone"></i> Тел.: +380508426200</p>
+					<p><i class="fas fa-envelope"></i> Email: <a href="mailto:lerabondarchuk38@gmail.com">lerabondarchuk38@gmail.com</a></p>
+				</div>
+				<div class="col-md-4 footer-links wow fadeInUp pt-5">
+					<div class="row">
+						<div class="col">
+							<h3>Посилання</h3>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-md-6">
+							<p><a href="#1">Головна</a></p>
+							<p><a href="index1.html#5">Кімнати</a></p>
+							<p><a href="index1.html#4">Додаткові послуги</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row text-center">
+				<div class="col footer-social">
+					<a href="#"><i class="fab fa-facebook-f"></i></a> 
+					<a href="#"><i class="fab fa-twitter"></i></a> 
+					<a href="#"><i class="fab fa-google-plus-g"></i></a> 
+					<a href="#"><i class="fab fa-instagram"></i></a> 
+					<a href="#"><i class="fab fa-youtube"></i></a>
+				</div>
+			</div>
+		</div>
+		<div class="footer text-center py-3">© 2020 </div>
+	</div>
+</footer>
+</body>
+</html>
